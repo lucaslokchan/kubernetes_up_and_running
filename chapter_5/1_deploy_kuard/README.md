@@ -21,3 +21,19 @@ This is to verify that the application is not just running, but is functioning p
 ```
 kuard-pod-health.yaml
 ```
+
+Readiness describes when a container is ready to serve user requests
+
+## Resource Management
+
+Resource requests - Minimum amount of a resource required
+
+```
+kuard-pod-resreq.ymal
+```
+
+Resource limits - Maximum amount of a resource required
+
+```
+kuard-pod-reslim.ymal
+```
